@@ -13,7 +13,7 @@ keywords:
 engine: gotpl
 version: 0.22.53
 sources:
-  - https://github.com/devtron-labs/charts
+  - https://github.com/Shivam-nagar23/charts
 dependencies:
 - name: argo-cd
   version: "5.9.1"
@@ -21,7 +21,7 @@ dependencies:
   condition: argo-cd.enabled
 - name: security
   version: "0.x.x"
-  repository: https://helm.devtron.ai
+  repository: https://shivam-nagar23.github.io/charts/
   condition: security.enabled
 maintainers:
 - email: prakarsh@devtron.ai

@@ -14,11 +14,11 @@ maintaintainers:
   - name: Pawan Kumar
     email: pawan.mehta@devtron.ai
 sources:
-  - https://github.com/devtron-labs/charts
+  - https://github.com/Shivam-nagar23/charts
 version: 0.1.5
 appVersion: "0.1.1"
 dependencies:
 - name: clair
   version: "0.x.x"
-  repository: https://helm.devtron.ai
+  repository: https://shivam-nagar23.github.io/charts/
   condition: clair.enabled
