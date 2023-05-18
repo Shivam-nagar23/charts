@@ -13,7 +13,7 @@ imageScanner:
   dbconfig:
     secretName: postgresql-postgresql
     keyName: postgresql-password
-  image: "quay.io/devtron/test:ed18d1c0-2537-2533"
+  image: "quay.io/devtron/test:56043391-2530-2631"
   imagePullPolicy: IfNotPresent
   labels: {}
   replicaCount: 1
