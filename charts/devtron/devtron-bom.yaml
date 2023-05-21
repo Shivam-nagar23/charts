@@ -15,10 +15,10 @@ installer:
   
 components:
   dashboard:
-    image: "quay.io/devtron/dashboard:28017af9-325-13418"
+    image: "quay.io/devtron/test:dc62b98c-2553-2781"
   devtron:
     image: "quay.io/devtron/hyperion:9f3934ee-280-13407"
-    cicdImage: "quay.io/devtron/devtron:9f3934ee-434-13409"
+    cicdImage: "quay.io/devtron/test:920223cc-2551-2782"
   argocdDexServer:
     image: "ghcr.io/dexidp/dex:v2.30.2"
     initContainer:
