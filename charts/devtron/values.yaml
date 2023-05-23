@@ -52,12 +52,12 @@ components:
       sentry: "false"
       sentryEnv: "PRODUCTION"
       applicationMetrics: "true"
-    image: "quay.io/devtron/test:9c0aec88-2553-2812"
+    image: "quay.io/devtron/test:f592cd3f-2553-2832"
     imagePullPolicy: IfNotPresent
 
   devtron:
-    image: "quay.io/devtron/test:06887915-2551-2814"
-    cicdImage: "quay.io/devtron/test:06887915-2551-2814"
+    image: "quay.io/devtron/test:f530f341-2551-2831"
+    cicdImage: "quay.io/devtron/test:f530f341-2551-2831"
     imagePullPolicy: IfNotPresent
     customOverrides: {}
     serviceMonitor:
@@ -271,7 +271,7 @@ argo-cd:
 security:
   enabled: false
   imageScanner:
-    image: "quay.io/devtron/test:d3d8de8d-2530-2811"
+    image: "quay.io/devtron/test:d3d8de8d-2530-2833"
   # Values for clair
   clair:
     enabled: false
