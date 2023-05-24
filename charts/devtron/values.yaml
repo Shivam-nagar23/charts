@@ -52,12 +52,12 @@ components:
       sentry: "false"
       sentryEnv: "PRODUCTION"
       applicationMetrics: "true"
-    image: "quay.io/devtron/test:f592cd3f-2553-2832"
+    image: "qquay.io/devtron/test:974afe39-2553-2836"
     imagePullPolicy: IfNotPresent
 
   devtron:
-    image: "quay.io/devtron/test:f530f341-2551-2831"
-    cicdImage: "quay.io/devtron/test:f530f341-2551-2831"
+    image: "quay.io/devtron/test:e1622959-2551-2835"
+    cicdImage: "quay.io/devtron/test:e1622959-2551-2835"
     imagePullPolicy: IfNotPresent
     customOverrides: {}
     serviceMonitor:
