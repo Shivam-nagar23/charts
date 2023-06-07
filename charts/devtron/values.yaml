@@ -56,8 +56,8 @@ components:
     imagePullPolicy: IfNotPresent
 
   devtron:
-    image: "quay.io/devtron/test:36b09879-2551-5325"
-    cicdImage: "quay.io/devtron/test:36b09879-2551-5325"
+    image: "quay.io/devtron/test:787f5d77-298-2676"
+    cicdImage: "quay.io/devtron/test:787f5d77-298-2676"
     imagePullPolicy: IfNotPresent
     customOverrides: {}
     serviceMonitor:
@@ -271,7 +271,7 @@ argo-cd:
 security:
   enabled: false
   imageScanner:
-    image: "quay.io/devtron/test:1d8ad8f6-2636-5335"
+    image: "quay.io/devtron/test:fc36c8a7-297-2674"
   # Values for clair
   clair:
     enabled: false
